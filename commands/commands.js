@@ -10,7 +10,6 @@ module.exports = {
         .addFields(
             {name: '-rules', value: 'Gives you the server rules'},
             {name: '-youtube', value: 'Gives you our youtube channel (#AD)'},
-            {name: '-atlasfn', value: 'Fun Surprise'},
             {name: '-ping', value: 'Tests if bot is working (DEV USE ONLY)'},
             {name: '-copyright', value: 'Views Copyright Document'},
             {name: '-kay', value: 'Tells kay to go to memes'}
