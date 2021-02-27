@@ -1,0 +1,15 @@
+{
+  "name": "lithium-bot",
+  "version": "1.0.0",
+  "description": "LithiumFN Discord Bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node .": ""
+  },
+  "author": "Vortyx",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
