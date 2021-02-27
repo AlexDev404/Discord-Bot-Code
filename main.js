@@ -28,22 +28,22 @@ client.on('message', message =>{
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 
-    if(command === 'ping'){
-        client.commands.get('ping').execute(message, args);
-    } else if (command == 'youtube'){
-        client.commands.get('youtube').execute(message, args);
-    }else if (command == 'rules'){
-            client.commands.get('rules').execute(message, args, Discord);
-        } else if (command == 'atlasfn'){
-            client.commands.get('atlasfn').execute(message, args);
-        } else if (command == 'blaze'){
-            client.commands.get('atlasfn').execute(message, args);
-        } else if (command == 'commands'){
-            client.commands.get('commands').execute(message, args, Discord);
+    if(command === ''){
+        client.commands.get('').execute(message, args);
+    } else if (command == ''){
+        client.commands.get('').execute(message, args);
+    }else if (command == ''){
+            client.commands.get('').execute(message, args, Discord);
+        } else if (command == ''){
+            client.commands.get('').execute(message, args);
+        } else if (command == ''){
+            client.commands.get('').execute(message, args);
+        } else if (command == ''){
+            client.commands.get('').execute(message, args, Discord);
         } else if (command == 'copyright'){
             client.commands.get('copyright').execute(message, args);
-        } else if (command == 'kay'){
-            client.commands.get('kay').execute(message, args);
+        } else if (command == ''){
+            client.commands.get('').execute(message, args);
        
         }
 
